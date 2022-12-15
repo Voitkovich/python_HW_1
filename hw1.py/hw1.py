@@ -7,15 +7,15 @@
 # - 7 -> да
 # - 1 -> нет
 
-# dayNum = int(input('Введите номер дня недели: '))
-# if dayNum == 6 or dayNum == 7:
-#     print('Этот день выходной')
+dayNum = int(input('Введите номер дня недели: '))
+if dayNum == 6 or dayNum == 7:
+    print('Этот день выходной')
     
-# elif dayNum < 1 or dayNum > 7:  
-#     print('Этот вовсе не день недели')
+elif dayNum < 1 or dayNum > 7:  
+    print('Этот вовсе не день недели')
 
-# else:
-#     print('Это будний день')  
+else:
+    print('Это будний день')  
 
 
 
@@ -31,37 +31,37 @@
 # - x=-34; y=-30 -> 3
 
 
-# coordX = int(input('Введите Х: '))
-# coordY = int(input('Введите Y: '))
-# if coordX > 0 and coordY > 0:
-#     print('1')
+coordX = int(input('Введите Х: '))
+coordY = int(input('Введите Y: '))
+if coordX > 0 and coordY > 0:
+    print('1')
 
-# if coordX < 0 and coordY > 0:
-#     print('2')
+if coordX < 0 and coordY > 0:
+    print('2')
 
-# if coordX < 0 and coordY < 0:
-#     print('3')
+if coordX < 0 and coordY < 0:
+    print('3')
 
-# if coordX > 0 and coordY < 0:
-#     print('4')
-# if coordX == 0 and coordY == 0:
-#     print('Так не пойдет')    
+if coordX > 0 and coordY < 0:
+    print('4')
+if coordX == 0 and coordY == 0:
+    print('Так не пойдет')    
 
 
 # Напишите программу, которая по заданному номеру четверти,
 #  показывает диапазон возможных координат точек в этой четверти (x и y).
 
-# chetvert = int(input('Введите номер четверти: '))
-# if chetvert == 1:
-#     print('x > 0, y > 0')
-# if chetvert == 2:
-#     print('x < 0, y > 0')
-# if chetvert == 3:
-#     print('x < 0, y < 0')
-# if chetvert == 4:
-#     print(' x > 0, y < 0')
-# else:
-#     print('Это не номер четверти')       
+chetvert = int(input('Введите номер четверти: '))
+if chetvert == 1:
+    print('x > 0, y > 0')
+if chetvert == 2:
+    print('x < 0, y > 0')
+if chetvert == 3:
+    print('x < 0, y < 0')
+if chetvert == 4:
+    print(' x > 0, y < 0')
+else:
+    print('Это не номер четверти')       
 # 
 # 
 # Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
